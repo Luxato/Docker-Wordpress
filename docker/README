@@ -1,0 +1,4 @@
+// Build is necessary when we are building a container from our own custom docker files
+docker-compose up -d --build
+
+docker-compose down
